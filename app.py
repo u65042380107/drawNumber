@@ -24,7 +24,7 @@ def classify():
 def clear_canvas():
     canvas.delete("all")
     draw.rectangle((0, 0, 280, 280), fill="black")
-    label_result.config(text="✏️ วาดตัวเลข แล้วกด 'ทายเลข'", foreground="black")
+    label_result.config(text="✏️ วาดตัวเลข แล้วกดปุ่ม 'ทายเลข'", foreground="black")
 
 # ฟังก์ชันวาดเส้น
 def draw_lines(event):
